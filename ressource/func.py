@@ -1,3 +1,8 @@
+'''
+For those wondering why I import my function from this Python file instead of part 3 of the tutorial,
+ it's because importing a Jupyter notebook file is not possible.
+'''
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
