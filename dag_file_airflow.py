@@ -25,7 +25,7 @@ from airflow.operators.python import PythonOperator
 default_args = {
     'owner': 'Cyril_AI',#your name
     'depends_on_past': False,
-    'start_date': datetime(2023, 3, 12, 23), #make it start at 23:00
+    'start_date': datetime(2023, 3, 12, 23), #make it start at 23:00 and before the actual date !
     'retries': 0
 }
 
