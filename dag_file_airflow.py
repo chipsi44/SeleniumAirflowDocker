@@ -7,7 +7,7 @@ I'm the MoveAndRenameMe file !
 #It is a requirement for the file to work properly.
 
 '''
-So anyways, the first step is to get our function back from where we created them !
+So anyways, the first step is to get our function back !
 '''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
