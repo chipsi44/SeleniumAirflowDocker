@@ -106,8 +106,4 @@ def scrap_to_csv(link = 'https://finance.yahoo.com/most-active?offset=0&count=10
 
 '''
 Welcome back beautiful function !!!!!
-<<<<<<< HEAD
 '''
-=======
-'''
->>>>>>> origin/Corrected_Tuto
