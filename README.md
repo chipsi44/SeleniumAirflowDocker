@@ -63,6 +63,17 @@ It is now time to build and launch our DAG image:
 
 Run it on the port 8080 and do not forget to run it inside the network with selenium grid.
 
+## __Does it work__
+
+* Launch DAG: To start, you need to launch your DAG using the airflow web interface. This will trigger the workflow and execute the scraping function defined in your DAG.
+
+* Verify session creation: Since you are using Selenium for web scraping, you can go to selenium grid. Check if the session is created successfully, which will indicate that your scraping function is able to connect to the webpage.
+
+* Check file creation: Once the DAG is finished executing, you can check if the file created by your scraping function is available. Depending on where the file is stored, you can use : 
+* *  docker cp monapp-container:/app/dags/data/financeYahoo_dataframe.csv ./data 
+
+* Validate file contents: After accessing the file, you can open it and verify if it contains the data you intended to scrape. You can also check the format of the file to ensure it is in the desired format (e.g., CSV, Excel, JSON, etc.).
+
 # Contributor 
 
 [Cyril Verwimp](https://www.linkedin.com/in/cyril-verwimp-8a0457208/)
