@@ -9,7 +9,7 @@ rename this file dag_file_airflow.py and move it into the root of the project !
 '''
 So anyways, the first step is to get our function back !
 '''
-from ressource.func import *
+from resource.func import *
 
 #Let's now create our DAGS ! 
 

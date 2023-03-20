@@ -17,7 +17,7 @@ FROM python:3.11.1
 
 # Copy the DAG file into the container
 COPY dag_file_airflow.py /app/dags/
-COPY ressource /app/dags/ressource/
+COPY resource /app/dags/resource/
 
 #Data store file
 RUN mkdir -p /app/dags/data
