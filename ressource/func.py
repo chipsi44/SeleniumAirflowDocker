@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 '''
 For those wondering why I import my function from this Python file instead of part 3 of the tutorial,
  it's because importing a Jupyter notebook file is not possible.
 '''
 
+=======
+>>>>>>> origin/Corrected_Tuto
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
@@ -99,11 +102,15 @@ def to_pandas(entreprise_stock_info_list,my_header_list) :
             elem.pop()  # remove the last element of each inner list
     df = pd.DataFrame(data=entreprise_stock_info_list, columns=my_header_list)
     return df
-def scrap_to_csv(link) :
+def scrap_to_csv(link = 'https://finance.yahoo.com/most-active?offset=0&count=100') :
     entr_list,header_list = main_scrap_financeYahoo(link)
     df = to_pandas(entr_list,header_list)
     df.to_csv("dags/data/financeYahoo_dataframe.csv", index=False)
 
 '''
 Welcome back beautiful function !!!!!
+<<<<<<< HEAD
 '''
+=======
+'''
+>>>>>>> origin/Corrected_Tuto
