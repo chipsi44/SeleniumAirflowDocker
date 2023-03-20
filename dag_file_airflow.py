@@ -9,7 +9,7 @@ I'm the MoveAndRenameMe file !
 '''
 So anyways, the first step is to get our function back !
 '''
-from ressource.func import *
+from resource.func import *
 '''
 Let's now create our DAGS ! 
 
