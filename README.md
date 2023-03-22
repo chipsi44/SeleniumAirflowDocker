@@ -11,6 +11,9 @@
 * Working with Docker
 * Ability to work with all three together
 
+## Version
+Airflow version : 2.5.1 |
+Latest update: March 23, 2023. 
 
 ## Description
 
@@ -46,10 +49,6 @@ State clearly, the challenge the tutorial is trying to address. Maybe with an ex
 For example, we would like to integrate this three tools to build an automated scheduled scrapper for dynamic websites that can be deployed on the cloud. (You can adapt this)
 
 -->
-
-## Requirements
-__Airflow version : 2.5.1 |
-Latest update: March 23, 2023. 
 
 ## Structure of the repo
 
