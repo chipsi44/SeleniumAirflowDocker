@@ -70,5 +70,5 @@ Cyril Verwimp, Junior Data Engineer
 
 Connect with me: [LinkedIn](https://www.linkedin.com/in/cyril-verwimp-8a0457208/)
 
-"For the things we have to learn before we can do them, we learn by doing them."
+> "For the things we have to learn before we can do them, we learn by doing them."
 ― Aristotle
